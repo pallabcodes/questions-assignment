@@ -1,0 +1,242 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "password": "John123@",
+    "age": 30,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/john.jpg",
+    "mobile": "+1234567890"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe@example.com",
+    "password": "Jane@456",
+    "age": 25,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/jane.jpg",
+    "mobile": "+0987654321"
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alice.smith@example.com",
+    "password": "Alice@789",
+    "age": 28,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/alice.jpg",
+    "mobile": "+2345678901"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Brown",
+    "email": "bob.brown@example.com",
+    "password": "Bob@135",
+    "age": 35,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/bob.jpg",
+    "mobile": "+3456789012"
+  },
+  {
+    "firstName": "Charlie",
+    "lastName": "Davis",
+    "email": "charlie.davis@example.com",
+    "password": "Charlie@246",
+    "age": 40,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/charlie.jpg",
+    "mobile": "+4567890123"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Evans",
+    "email": "david.evans@example.com",
+    "password": "David@357",
+    "age": 22,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/david.jpg",
+    "mobile": "+5678901234"
+  },
+  {
+    "firstName": "Ella",
+    "lastName": "Garcia",
+    "email": "ella.garcia@example.com",
+    "password": "Ella@468",
+    "age": 27,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/ella.jpg",
+    "mobile": "+6789012345"
+  },
+  {
+    "firstName": "Frank",
+    "lastName": "Harris",
+    "email": "frank.harris@example.com",
+    "password": "Frank@579",
+    "age": 33,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/frank.jpg",
+    "mobile": "+7890123456"
+  },
+  {
+    "firstName": "Grace",
+    "lastName": "Jackson",
+    "email": "grace.jackson@example.com",
+    "password": "Grace@680",
+    "age": 31,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/grace.jpg",
+    "mobile": "+8901234567"
+  },
+  {
+    "firstName": "Hannah",
+    "lastName": "Johnson",
+    "email": "hannah.johnson@example.com",
+    "password": "Hannah@791",
+    "age": 24,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/hannah.jpg",
+    "mobile": "+9012345678"
+  },
+  {
+    "firstName": "Ian",
+    "lastName": "King",
+    "email": "ian.king@example.com",
+    "password": "Ian@802",
+    "age": 26,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/ian.jpg",
+    "mobile": "+0123456789"
+  },
+  {
+    "firstName": "Jack",
+    "lastName": "Lee",
+    "email": "jack.lee@example.com",
+    "password": "Jack@913",
+    "age": 29,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/jack.jpg",
+    "mobile": "+1234567891"
+  },
+  {
+    "firstName": "Karen",
+    "lastName": "Martinez",
+    "email": "karen.martinez@example.com",
+    "password": "Karen@024",
+    "age": 32,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/karen.jpg",
+    "mobile": "+2345678902"
+  },
+  {
+    "firstName": "Leo",
+    "lastName": "Nelson",
+    "email": "leo.nelson@example.com",
+    "password": "Leo@135",
+    "age": 37,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/leo.jpg",
+    "mobile": "+3456789013"
+  },
+  {
+    "firstName": "Mia",
+    "lastName": "Owen",
+    "email": "mia.owen@example.com",
+    "password": "Mia@246",
+    "age": 34,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/mia.jpg",
+    "mobile": "+4567890124"
+  },
+  {
+    "firstName": "Nathan",
+    "lastName": "Perez",
+    "email": "nathan.perez@example.com",
+    "password": "Nathan@357",
+    "age": 28,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/nathan.jpg",
+    "mobile": "+5678901235"
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Quinn",
+    "email": "olivia.quinn@example.com",
+    "password": "Olivia@468",
+    "age": 21,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/olivia.jpg",
+    "mobile": "+6789012346"
+  },
+  {
+    "firstName": "Paul",
+    "lastName": "Reed",
+    "email": "paul.reed@example.com",
+    "password": "Paul@579",
+    "age": 36,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/paul.jpg",
+    "mobile": "+7890123457"
+  },
+  {
+    "firstName": "Quincy",
+    "lastName": "Scott",
+    "email": "quincy.scott@example.com",
+    "password": "Quincy@680",
+    "age": 39,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/quincy.jpg",
+    "mobile": "+8901234568"
+  },
+  {
+    "firstName": "Rachel",
+    "lastName": "Taylor",
+    "email": "rachel.taylor@example.com",
+    "password": "Rachel@791",
+    "age": 27,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/rachel.jpg",
+    "mobile": "+9012345679"
+  },
+  {
+    "firstName": "Sam",
+    "lastName": "Upton",
+    "email": "sam.upton@example.com",
+    "password": "Sam@802",
+    "age": 23,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/sam.jpg",
+    "mobile": "+0123456780"
+  },
+  {
+    "firstName": "Tina",
+    "lastName": "Vega",
+    "email": "tina.vega@example.com",
+    "password": "Tina@913",
+    "age": 26,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/tina.jpg",
+    "mobile": "+1234567892"
+  },
+  {
+    "firstName": "Ursula",
+    "lastName": "Watson",
+    "email": "ursula.watson@example.com",
+    "password": "Ursula@024",
+    "age": 29,
+    "gender": "female",
+    "avatar": "https://example.com/avatar/ursula.jpg",
+    "mobile": "+2345678903"
+  },
+  {
+    "firstName": "Victor",
+    "lastName": "Xavier",
+    "email": "victor.xavier@example.com",
+    "password": "Victor@135",
+    "age": 31,
+    "gender": "male",
+    "avatar": "https://example.com/avatar/victor.jpg",
+    "mobile": "+3456789014"
+  }
+]
