@@ -1,0 +1,227 @@
+[
+  {
+    "name": "javascript",
+    "description": "A versatile language for building dynamic web applications.",
+    "slug": "javascript-2024-01-14"
+  },
+  {
+    "name": "python",
+    "description": "A powerful language known for its simplicity and readability.",
+    "slug": "python-2024-06-29"
+  },
+  {
+    "name": "react",
+    "description": "A JavaScript library for building user interfaces.",
+    "slug": "react-2024-01-14"
+  },
+  {
+    "name": "node.js",
+    "description": "A runtime environment for executing JavaScript on the server side.",
+    "slug": "nodejs-2024-01-17"
+  },
+  {
+    "name": "css",
+    "description": "A style sheet language used for describing the presentation of a document.",
+    "slug": "css-2024-06-27"
+  },
+  {
+    "name": "html",
+    "description": "The standard markup language for documents designed to be displayed in a web browser.",
+    "slug": "html-2024-06-09"
+  },
+  {
+    "name": "web development",
+    "description": "The work involved in developing a website for the Internet.",
+    "slug": "web-development-2024-04-03"
+  },
+  {
+    "name": "frontend",
+    "description": "The part of a website that users interact with directly.",
+    "slug": "frontend-2024-03-31"
+  },
+  {
+    "name": "backend",
+    "description": "The server side of an application and everything that communicates between the database and the browser.",
+    "slug": "backend-2024-02-25"
+  },
+  {
+    "name": "apis",
+    "description": "A set of definitions and protocols for building and integrating application software.",
+    "slug": "apis-2024-02-06"
+  },
+  {
+    "name": "databases",
+    "description": "Organized collections of data, generally stored and accessed electronically from a computer system.",
+    "slug": "databases-2024-06-26"
+  },
+  {
+    "name": "devops",
+    "description": "A set of practices that combines software development and IT operations.",
+    "slug": "devops-2024-02-07"
+  },
+  {
+    "name": "machine learning",
+    "description": "A method of data analysis that automates analytical model building.",
+    "slug": "machine-learning-2024-02-27"
+  },
+  {
+    "name": "ai",
+    "description": "The simulation of human intelligence in machines.",
+    "slug": "ai-2024-01-27"
+  },
+  {
+    "name": "security",
+    "description": "The practice of protecting systems, networks, and programs from digital attacks.",
+    "slug": "security-2024-03-16"
+  },
+  {
+    "name": "cloud computing",
+    "description": "The delivery of computing services over the internet.",
+    "slug": "cloud-computing-2024-02-01"
+  },
+  {
+    "name": "mobile development",
+    "description": "The process of creating software for mobile devices.",
+    "slug": "mobile-development-2024-05-27"
+  },
+  {
+    "name": "testing",
+    "description": "The process of evaluating and verifying that a software product or application does what it is supposed to do.",
+    "slug": "testing-2024-04-21"
+  },
+  {
+    "name": "typescript",
+    "description": "A strongly typed programming language that builds on JavaScript.",
+    "slug": "typescript-2024-05-09"
+  },
+  {
+    "name": "ruby",
+    "description": "A dynamic, open-source programming language with a focus on simplicity and productivity.",
+    "slug": "ruby-2024-04-04"
+  },
+  {
+    "name": "php",
+    "description": "A popular general-purpose scripting language that is especially suited to web development.",
+    "slug": "php-2024-04-02"
+  },
+  {
+    "name": "java",
+    "description": "A high-level, class-based, object-oriented programming language.",
+    "slug": "java-2024-06-01"
+  },
+  {
+    "name": "c++",
+    "description": "A general-purpose programming language created as an extension of the C programming language.",
+    "slug": "cpp-2024-02-13"
+  },
+  {
+    "name": "c#",
+    "description": "A modern, object-oriented programming language developed by Microsoft.",
+    "slug": "csharp-2024-07-02"
+  },
+  {
+    "name": "kubernetes",
+    "description": "An open-source system for automating the deployment, scaling, and management of containerized applications.",
+    "slug": "kubernetes-2024-06-11"
+  },
+  {
+    "name": "docker",
+    "description": "A set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.",
+    "slug": "docker-2024-01-27"
+  },
+  {
+    "name": "graphql",
+    "description": "An open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.",
+    "slug": "graphql-2024-06-09"
+  },
+  {
+    "name": "svelte",
+    "description": "A radical new approach to building user interfaces.",
+    "slug": "svelte-2024-06-28"
+  },
+  {
+    "name": "swift",
+    "description": "A powerful and intuitive programming language for macOS, iOS, watchOS, and tvOS.",
+    "slug": "swift-2024-03-03"
+  },
+  {
+    "name": "go",
+    "description": "An open-source programming language that makes it easy to build simple, reliable, and efficient software.",
+    "slug": "go-2024-05-17"
+  },
+  {
+    "name": "rust",
+    "description": "A language empowering everyone to build reliable and efficient software.",
+    "slug": "rust-2024-03-15"
+  },
+  {
+    "name": "ci/cd",
+    "description": "A method to frequently deliver apps to customers by introducing automation into the stages of app development.",
+    "slug": "ci-cd-2024-07-08"
+  },
+  {
+    "name": "agile",
+    "description": "A methodology for iterative and incremental development.",
+    "slug": "agile-2024-04-19"
+  },
+  {
+    "name": "scrum",
+    "description": "A framework within which people can address complex adaptive problems.",
+    "slug": "scrum-2024-01-25"
+  },
+  {
+    "name": "version control",
+    "description": "A system that records changes to a file or set of files over time so that you can recall specific versions later.",
+    "slug": "version-control-2024-07-13"
+  },
+  {
+    "name": "blockchain",
+    "description": "A system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system.",
+    "slug": "blockchain-2024-01-29"
+  },
+  {
+    "name": "algorithms",
+    "description": "A process or set of rules to be followed in calculations or other problem-solving operations.",
+    "slug": "algorithms-2024-01-12"
+  },
+  {
+    "name": "data structures",
+    "description": "A particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently.",
+    "slug": "data-structures-2024-02-08"
+  },
+  {
+    "name": "big data",
+    "description": "Large, complex data sets that require advanced systems for processing and analysis.",
+    "slug": "big-data-2024-05-31"
+  },
+  {
+    "name": "iot",
+    "description": "A system of interrelated computing devices, mechanical and digital machines, objects, animals, or people.",
+    "slug": "iot-2024-01-11"
+  },
+  {
+    "name": "ar/vr",
+    "description": "Technologies that blend the digital and physical worlds.",
+    "slug": "ar-vr-2024-07-14"
+  },
+  {
+    "name": "quantum computing",
+    "description": "Computing using quantum-mechanical phenomena, such as superposition and entanglement.",
+    "slug": "quantum-computing-2024-03-26"
+  },
+  {
+    "name": "cybersecurity",
+    "description": "The practice of protecting systems, networks, and programs from digital attacks.",
+    "slug": "cybersecurity-2024-06-05"
+  },
+  {
+    "name": "robotics",
+    "description": "The branch of technology that deals with the design, construction, operation, and application of robots.",
+    "slug": "robotics-2024-01-21"
+  },
+  {
+    "name": "serverless",
+    "description": "A cloud-computing execution model in which the cloud provider runs the server, and dynamically manages the allocation of machine resources.",
+    "slug": "serverless-2024-07-05"
+  }
+]
