@@ -3,6 +3,12 @@ const { User } = require('../models');
 const { updateUserSchema } = require('../validators/user');
 
 const getUserProfile = async function (req, res, next) {
+  /* 	#swagger.tags = ['User']
+        #swagger.description = 'Endpoint to retrieve logged in user info' */
+
+  /* #swagger.security = [{
+            "bearerAuth": []
+    }] */
   const userId = req.user._id;
 
   const pipeline = [
@@ -50,8 +56,40 @@ const getUserProfile = async function (req, res, next) {
   }
 };
 
-// including the profile picture
-const updateUserProfile = async (req, res, next) => {
+
+const updateMyProfile = async (req, res, next) => {
+  /* 	#swagger.tags = ['User']
+        #swagger.description = 'Endpoint to edit a specific user' */
+
+  /*	#swagger.requestBody = {
+            required: true,
+            content: {
+                "multipart/form-data": {
+                    "schema": { 
+                      "type": "object",
+                      "required": ["firstName", "lastName", "avatar"],
+                      "properties": {
+                      "firstName": {
+                        "type": "string",
+                        "example": "Jon"
+                      },
+                      "lastName": {
+                        type: "string",
+                        "example": "Doe"
+
+                      },
+                      "avatar": {
+                            "type": "string",
+                            "format": "binary"
+                        }
+                      }
+                  }
+                }
+            }
+        } */
+  /* #swagger.security = [{
+            "bearerAuth": []
+    }] */
   try {
     // Validate request body against updateUserSchema
     const updateData = await updateUserSchema.validate(req.body, {
@@ -76,6 +114,14 @@ const updateUserProfile = async (req, res, next) => {
 };
 
 const deleteUserAccount = async function (req, res, next) {
+  /* 	#swagger.tags = ['User']
+        #swagger.description = 'Endpoint to delete a specific user' */
+
+        
+
+  /* #swagger.security = [{
+            "bearerAuth": []
+    }] */
   const userId = req.user?._id;
 
   try {
@@ -96,6 +142,6 @@ const deleteUserAccount = async function (req, res, next) {
 
 module.exports = {
   getUserProfile,
-  updateUserProfile,
+  updateMyProfile,
   deleteUserAccount,
 };

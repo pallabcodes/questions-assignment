@@ -19,7 +19,7 @@ router.patch(
   '/:id',
   jwtAuthGuard,
   upload.single('avatar'),
-  UserController.updateUserProfile
+  UserController.updateMyProfile
 );
 
 /**

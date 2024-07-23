@@ -1,6 +1,8 @@
 const { Category } = require('../models');
 
 const getAllCategories = async function (req, res, next) {
+  /* 	#swagger.tags = ['Category']
+        #swagger.description = 'Endpoint to retrieve categories' */
   let { pageNumber, pageSize } = req.query;
 
   try {
@@ -44,6 +46,8 @@ const getAllCategories = async function (req, res, next) {
 };
 
 const getCategory = async function (req, res, next) {
+  /* 	#swagger.tags = ['Category']
+        #swagger.description = 'Endpoint to retrieve category' */
   try {
     const category = await Category.findById(req.params.id, { __v: 0 });
 

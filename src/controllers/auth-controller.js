@@ -5,6 +5,31 @@ const { registerSchema, loginSchema } = require('../validators/auth');
 const mongoose = require('mongoose');
 
 const register = async function (req, res, next) {
+  /* 	#swagger.tags = ['Auth']
+        #swagger.description = 'Endpoint to signup a specific user' */
+
+  /*  #swagger.requestBody = {
+            required: true,
+            content: {
+                "application/json": {
+                    schema: {
+                        $ref: "#/components/schemas/UserSignupSchema"
+                    }  
+                }
+            }
+        } 
+    */
+  /* #swagger.responses[200] = {
+            description: "This should be the shape of the response after user sign up is successful",
+            content: {
+                "application/json": {
+                    schema:{
+                        $ref: "#/components/schemas/UserSignupSchema"
+                    }
+                }           
+            }
+        }   
+    */
   try {
     // 0. validate / sanitize payload
     const user = await registerSchema.validate(req.body, {
@@ -47,6 +72,18 @@ const register = async function (req, res, next) {
 };
 
 const login = async function (req, res, next) {
+  /* 	#swagger.tags = ['Auth']
+        #swagger.description = 'Endpoint to sign in a specific user' */
+
+  /*	#swagger.requestBody = {
+            required: true,
+            content: {
+                "application/json": {
+                    schema: { $ref: "#/components/schemas/UserSignInSchema" }
+                }
+            }
+        } */
+
   try {
     // Validate and sanitize payload
     const { email, password } = await loginSchema.validate(req.body, {
@@ -88,6 +125,13 @@ const login = async function (req, res, next) {
 };
 
 const logout = async (req, res, next) => {
+  /* 	#swagger.tags = ['Auth']
+        #swagger.description = 'Endpoint to log out a specific user' */
+
+  /* #swagger.security = [{
+            "bearerAuth": []
+    }] */
+
   try {
     const userId = req.user._id;
 

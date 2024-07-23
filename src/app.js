@@ -6,6 +6,8 @@ const express = require('express');
 const passport = require('passport');
 const allRoutes = require('./routes');
 const errorHandler = require('./middlewares/errorMiddleware');
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('../swagger-output.json');
 
 require('./strategies/localStrategy');
 require('./strategies/jwtStrategy');
@@ -22,6 +24,8 @@ app.use(cookieParser());
 app.use(helmet());
 app.use(cors({ origin: '*' }));
 app.use(passport.initialize());
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use('/api', allRoutes);
 

@@ -114,8 +114,10 @@ build/
 *.jks
 *.der
 *.csr
+*.csv
 
 # Ignore build and output directories
 dist/
 build/
 out/
+uploads/

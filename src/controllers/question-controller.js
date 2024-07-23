@@ -4,37 +4,13 @@ const fs = require('fs');
 const mongoose = require('mongoose');
 const logger = require('../utils/logger');
 
-// Get questions by category
-const getQuestionsByCategory = async (req, res, next) => {
-  try {
-    const categoryId = req.params.id;
-    const questions = await Question.aggregate([
-      { $match: { categories: mongoose.Types.ObjectId(categoryId) } },
-      {
-        $lookup: {
-          from: 'categories',
-          localField: 'categories',
-          foreignField: '_id',
-          as: 'categoryDetails',
-        },
-      },
-      { $unwind: '$categoryDetails' },
-      {
-        $match: {
-          'categoryDetails._id': mongoose.Types.ObjectId(categoryId),
-        },
-      },
-      {
-        $sort: { title: 1 },
-      },
-    ]);
-    res.status(200).json(questions);
-  } catch (error) {
-    next(error);
-  }
-};
-
 const getQuestionsForEachCategory = async (req, res, next) => {
+  /* 	#swagger.tags = ['Question']
+        #swagger.description = 'Endpoint to retrieve question(s) by its category or categories' */
+
+  /* #swagger.security = [{
+            "bearerAuth": []
+    }] */
   let { categories = [], pageNumber = 1, pageSize = 10 } = req.query;
 
   try {
@@ -166,6 +142,30 @@ const getCategoryObjectIds = async (categoryNames) => {
 
 // Function to bulk import questions
 const bulkImportQuestions = async (req, res, next) => {
+  /* 	#swagger.tags = ['Question']
+        #swagger.description = 'Endpoint to add bulk question(s) by its category or categories' */
+
+  /*	#swagger.requestBody = {
+            required: true,
+            content: {
+                "multipart/form-data": {
+                    "schema": { 
+                      "type": "object",
+                      "required": ["file"],
+                      "properties": {
+                      "file": {
+                            "type": "string",
+                            "format": "binary"
+                        }
+                      }
+                  }
+                }
+            }
+        } */
+
+  /* #swagger.security = [{
+            "bearerAuth": []
+    }] */
   const filePath = req.file?.path;
   const userId = req.user;
 
@@ -242,7 +242,6 @@ const bulkImportQuestions = async (req, res, next) => {
 };
 
 module.exports = {
-  getQuestionsByCategory,
   bulkImportQuestions,
   getQuestionsForEachCategory,
 };
