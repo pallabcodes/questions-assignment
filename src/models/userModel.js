@@ -72,7 +72,7 @@ const UserSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// Instance method to compare passwords ( & this could be on this model's instance  )
+// Instance method to compare passwords ( & this can be used on this model's instance  )
 UserSchema.methods.comparePassword = async function (rawPassword) {
   return await bcrypt.compare(rawPassword, this.password);
 };

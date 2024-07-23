@@ -13,7 +13,7 @@ passport.use(
     async (payload, done) => {
       try {
         if (!mongoose.Types.ObjectId.isValid(payload.userId)) {
-          return done(new Error('User IS not found'));
+          return done(new Error('User not found'));
         }
 
         const user = await User.findOne(
